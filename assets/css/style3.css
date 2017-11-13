@@ -1,0 +1,416 @@
+header {
+	width: 100%;
+    border: 25px #ccc;
+    padding: 0px;
+    margin: 25px;
+    background-color: #fff;
+    display: inline-block;
+}
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+    border: 25px;
+    padding: 25px;
+    margin: 0px 0px 0px 80px;
+    background-color: #4aaaa5;
+    float: left;
+    display: inline-block;
+    position: relative;
+    clear: both;
+}
+nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 10;
+	color: #999999;
+	font-size: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	display: inline-block;
+	position: relative;
+	left: -21%;
+	bottom: 50px;
+	clear: both;
+}
+/*Also, it moves*/
+ul {
+	display: inline;
+	float: right;
+	padding: 10px 40px;
+	color: #72777a;
+	font-size: 15px
+}
+li{
+	color: #72777a;
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	border-right: solid #F1F1F1;
+	border-left: solid #fff;
+	border-spacing: 10px 10px;
+}
+body {
+	background-image: url("light.png");
+}
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom: solid #F1F1F1;
+	padding: 0px 0px 20px 0px;
+}
+.banner {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    border-bottom: solid #ccc;
+}
+#profile {
+	float: left;
+	margin: 0 15px 5px 0;
+	clear: both;
+}
+.portfolio {
+	background-color: #fff;
+	width: 650px;
+    height: 760px;
+    padding: 20px;
+    margin: 15px 15px 15px 80px;
+    border: solid 1px #ccc;
+}
+.connect {
+	background-color: #fff;
+	padding: 20px;
+    margin: 15px 15px 15px 80px;
+    width: 270px;
+    height: 150px;
+    float: right;
+	display: inline-block;
+	left: -25%;
+	bottom: 830px;
+	border: solid 1px #ccc;
+	position: relative;
+    clear: both;
+}
+#sushi {
+	float: left;
+	clear: left;
+	padding: 5px;
+	margin: 5px;
+	position: absolute;
+}
+#hangman{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: white;
+	text-align: center
+	font-weight: bold;
+    position: absolute;
+    top: 355px;
+    margin: 10px;
+    padding: 5px 56px 5px 56px;
+    background-color: #4aaaa5;
+    float: left;
+    clear: left;
+}
+#car {
+	float: right;
+	clear: right;
+	left: -200px;
+	top: -15px;
+	position: relative;
+	padding: 5px;
+	margin: 5px;
+}
+#rpg{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: white;
+	text-align: center
+	font-weight: bold;
+    position: absolute;
+    top: 355px;
+    right: 967px;
+    margin: 10px;
+    padding: 5px 48px 5px 56px;
+    background-color: #4aaaa5;
+    float: right;
+    clear: right;
+}
+#feet {
+	float: left;
+	clear: left;
+	padding: 5px;
+	margin: 5px;
+	position: relative;
+}
+#trivia{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: white;
+	text-align: center
+	font-weight: bold;
+    position: absolute;
+    top: 575px;
+    left: 100px;
+    margin: 10px;
+    padding: 5px 46px 5px 46px;
+    background-color: #4aaaa5;
+    float: left;
+    clear: left;
+}
+#cord {
+	float: right;
+	clear: right;
+	left: -200px;
+	top: -3px;
+	position: relative;
+	padding: 5px;
+	margin: 5px;
+}
+#rutgers{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: white;
+	text-align: center
+	font-weight: bold;
+    position: absolute;
+    top: 575px;
+    left: 330px;
+    margin: 10px;
+    padding: 5px 12px 5px 12px;
+    background-color: #4aaaa5;
+    float: right;
+    clear: right;
+}
+#lake {
+	float: left;
+	clear: left;
+	padding: 5px;
+	margin: 5px;
+	position: relative;
+}
+#rock{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: white;
+	text-align: center
+	font-weight: bold;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    margin: 10px;
+    padding: 5px 12px 5px 12px;
+    background-color: #4aaaa5;
+    float: left;
+    clear: left;
+}
+footer {
+	background-color: #666;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #CACBCC;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    height: 55px;
+    border-top: solid 6px #4aaaa5;
+    position:fixed;
+    bottom:0;
+}
+/*Start of homework 2*/
+/* Width at 980px and below */
+@media only screen and (max-width: 980px) {
+.portfolio {
+    max-width: 30%;
+    height: 1200px;
+}
+#sushi {
+	top: 410px;
+	left: 95px;
+}
+#hangman {
+	left: 100px;
+	top: 1200px;
+}
+#car {
+	left: -80px;
+}
+#rpg{
+	left: 95px;
+	width: 10%;
+}
+#feet {
+	top: -25px;
+	right: 5px;
+}
+#trivia{
+	left: 92px;
+}
+#cord {
+	top: 410px;
+	left: -75px;
+	
+}
+#rutgers{
+	top: 1000px;
+	left: 98px;
+}
+#lake {
+	top: 180px;
+	
+}
+#rock{
+	top: 780px;
+	left: 95px;
+}
+.connect {
+	max-width: 25%;
+	right:68%;
+	bottom: 1275px;
+}
+nav {
+	padding: 0px;
+	right: 20%;
+}
+/* Width at 768px and below */
+@media only screen and (max-width: 768px) {
+h1 {
+	right: 35px;
+}
+.portfolio {
+    max-width: 600px;
+    margin: 5px 5px 5px 35px;
+    height: 800px;
+}
+.connect {
+	min-width: 78%;
+	bottom: -5px;
+	left: -10%;
+	margin-bottom: 110px;
+}
+#sushi {
+	left: 65px;
+}
+#hangman {
+	top: 345px;
+	left: 310px;
+}
+#car {
+	left: -370px;
+}
+#rpg{
+	left: 65px;
+	width: 100px;
+}
+#feet {
+	top: -235px;
+	left: 250px;
+}
+#trivia{
+	left: 60px;
+}
+#cord {
+	top: -10px;
+	left: -130px;
+	
+}
+#rutgers{
+	left: 305px;
+	top: 560px;
+}
+#lake {
+	top:-5px;
+	left: 10px;
+	
+}
+#rock{
+	left: 65px;
+}
+nav {
+	padding: 0px;
+	left: -15px;
+}
+/* Width at 640px and below */
+@media only screen and (max-width: 640px) {
+h1 {
+	position: static;
+	width: 80%;
+	margin: 0px;
+	text-align: center;
+}
+.portfolio {
+    max-width: 60%;
+    height: 1200px;
+    left: 5%;
+    position: relative;
+    top:25px;
+    right: 35px;
+}
+#sushi {
+	left: 70px;
+	top: 300px;
+}
+#hangman {
+	top: 250px;
+	left: 70px;
+}
+#car {
+	left: -110px;
+}
+#rpg{
+	left: 65px;
+	top: 460px;
+	width: 100px;
+}
+#feet {
+	top: 405px;
+	left: 50px;
+}
+#trivia{
+	left: 70px;
+	top: 660px;
+}
+#cord {
+	top: 200px;
+	left: -110px;
+	
+}
+#rutgers{
+	left: 70px;
+	top: 1100px;
+}
+#lake {
+	top:-30px;
+	left: 50px;
+	
+}
+#rock{
+	left: 70px;
+	top: 875px;
+}
+.connect {
+	min-width: 60%;
+	top: 25px;
+	left: -130px;
+	margin-bottom: 110px;
+}
+nav {
+	bottom: -4%;
+	background-color: white;
+	width: 90%;
+	position: relative;
+	right: -19%;
+	padding: 0px 100px 5px 74px;
+	border-bottom: solid #F1F1F1;
+}
+li{
+	padding: 0px 30px 0px 38px;
+}
+header {
+    margin-bottom: 0px;
+}
